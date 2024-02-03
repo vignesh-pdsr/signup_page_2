@@ -1,0 +1,50 @@
+.container{
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 48%, rgba(86,255,0,1) 100%);
+    border-radius: 50px;
+}
+img{
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+.btn{
+    width: 100%;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+}
+input[type="email"], input[type="password"], input[type="text"]{
+    background-color: lightgray;
+}
+
+  
+
+a:link{
+    color: white;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: white;
+    background-color: #56B844;
+}
+a:active{
+    color:white
+}
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: none;
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
